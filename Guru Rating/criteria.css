@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  list-style: none;
+  font-size: 18px;
+}
+
+
+span {
+  font-weight: bold;
+}
+
+
+
+#header{
+  height: 75px;
+  border-bottom: 2px solid black;
+}
+
+#header ul li{
+  font-size: 26px;
+  padding: 5px;
+  display: inline-block;
+}

@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: "Verdana, Geneva, sans-serif";
+
+}
+
+header {
+  height: 75px;
+  background-color: black;
+  color: white;
+  padding: 2px;
+  text-align: center;
+  border-bottom: solid black 1px;
+
+}
+
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+h1 {
+  padding: 15px;
+}
+
+header h1 {
+  font-size: 26px;
+  font-weight: lighter;
+}
+
+header p {
+  float: right;
+}
+
+p {
+  font-size: 18px;
+  max-width: 60%;
+}
+
+ul{
+  padding-left: 0;
+}
+
+
+form {
+  margin-top: 25px;
+}
+
+form input {
+  font-size: 15px;
+  height: 50px;
+  width: 120px;
+  background-color: #f49542;
+
+}
+
+
+.images {
+  margin: 10px;
+  border: black 1px solid;
+  float: right;
+  max-height: 250px;
+  max-width: 30%;
+  clear: both;
+}
+
+
+
+
+/* display a good picture in the showcase, beneath header */
+#showcase {
+  min-height: 250px;
+  background: url('duinen.jpg') no-repeat center;
+  background-color: black;
+  background-size: 80%;
+  border-bottom: black solid 25px;
+  border-top: black solid 25px;
+  margin-bottom: 45px;
+  opacity: 0.85;
+}
+
+#description {
+  margin: 15px;
+}
+
+
+footer {
+  padding: 10px;
+  margin-top: 45px;
+  background-color: #e5e5e5;
+  border-top: black solid 2px;
+}
+
+footer p {
+  margin-left: 10%;
+}
